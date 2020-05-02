@@ -5,6 +5,10 @@
     <string name="news_image_desc">News Image</string>
     <string name="news_image">news image</string>
     <string name="str_test_date">22/02/2017</string>
+    <string name="channel_name">"Notification channel"</string>
+
+    <string name="channel_description">"Notification channel"</string>
+
 
     <!-- Empty -->
     <string name="no_news">No News</string>
