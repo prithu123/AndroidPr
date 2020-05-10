@@ -1,0 +1,22 @@
+ext {
+    // Kotlin
+    kotlin_version = '1.3.61'
+    koin_version = '2.1.1'
+
+    // Android Sdk and tools
+    minSdkVersion = 14
+    targetSdkVersion = 28
+    compileSdkVersion = 28
+    androidGradlePlugin = "3.5.3"
+    buildToolsVersion = '28.0.3'
+    supportLibraryVersion = '28.0.0'
+
+    androidArchitectureVersion = "1.1.1"
+    // Framework
+    okhttp_version = '3.8.1'
+    retrofit_version = '2.2.0'
+    rxjava_version = '2.1.7'
+    anko_version='0.10.4'
+
+    mockito_version = "2.23.4"
+}

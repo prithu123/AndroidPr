@@ -1,6 +1,7 @@
 package com.prithu.androidcoroutinesretrofit.model
 
-import com.google.gson.annotations.SerializedName;
+import com.google.gson.annotations.SerializedName
+
 data class NewsArticle(
     val author: String? = null,
     val title: String? = null,
