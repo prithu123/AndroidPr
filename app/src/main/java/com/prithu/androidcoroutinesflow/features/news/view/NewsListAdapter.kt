@@ -8,7 +8,7 @@ import com.prithu.androidcoroutinesflow.R
 import com.prithu.androidcoroutinesretrofit.model.NewsArticle
 import kotlinx.android.synthetic.main.item_news_article.view.*
 
-class NewsListAdapter: RecyclerView.Adapter<NewsListAdapter.NewsItemViewHolder>() {
+class NewsListAdapter : RecyclerView.Adapter<NewsListAdapter.NewsItemViewHolder>() {
 
     private val newsItems = arrayListOf<NewsArticle>()
 
@@ -27,7 +27,7 @@ class NewsListAdapter: RecyclerView.Adapter<NewsListAdapter.NewsItemViewHolder>(
         holder.bind(newsItems[position])
     }
 
-    class NewsItemViewHolder(view: View): RecyclerView.ViewHolder(view) {
+    class NewsItemViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
         private val imageView = view.newsImage
         private val author = view.newsAuthor
