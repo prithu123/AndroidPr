@@ -29,6 +29,9 @@ class KoinActivity : AppCompatActivity() {
         var outPutFromVM = myViewModel.sayHello()
         var outPutFromVM2 = myViewModel2.sayHello()
 
+        Log.v("outPutFromVM", outPutFromVM.hashCode().toString())
+        Log.v("outPutFromVM", outPutFromVM2.hashCode().toString())
+
 
 
 
